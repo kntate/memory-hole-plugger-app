@@ -1,7 +1,7 @@
 target/
 .angular/
 node_modules/
-.stackblitzsrc
+.stackblitzrc
 
 pom.xml.tag
 pom.xml.releaseBackup
