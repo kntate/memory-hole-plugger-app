@@ -1,0 +1,6 @@
+<h2>Article</h2>
+
+<div *ngIf="article">
+    <h3>{{ article.name }}</h3>
+    <a href="{{ article.link }}" target="_blank">{{ article.description }} - {{ article.source }} - {{ article.publish_date | date }}</a>
+</div>
